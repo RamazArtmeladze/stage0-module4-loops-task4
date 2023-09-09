@@ -3,13 +3,12 @@ package school.mjc.stage0.loops.task4;
 public class NumberToBreakOn {
     public void printNumbersUntilWithBreakOn(int toBreakWith, int numberToGoUntil) {
         for (int i = 1; i <= numberToGoUntil; i++) {
-            System.out.print(i + " ");
+            System.out.println(i);
             if (i == toBreakWith) {
+                System.out.println("iterating till the end");
                 break;
             }
-            System.out.println();
         }
-        System.out.println();
     }
 
     public static void main(String[] args) {
@@ -17,4 +16,3 @@ public class NumberToBreakOn {
         numberPrinter.printNumbersUntilWithBreakOn(10, 5);
     }
 }
-
