@@ -18,7 +18,7 @@ public class TwoRangesSum {
                 }
             }
 
-            System.out.println( "skipped sum is " + skippedSum);
+            System.out.println("skipped sum is " + skippedSum);
             System.out.println("counted sum is " + countedSum);
         }
     }
@@ -26,7 +26,6 @@ public class TwoRangesSum {
     public static void main(String[] args) {
 
         TwoRangesSum sumCalculator = new TwoRangesSum();
-        sumCalculator.printSumOfTwoRanges(5, 10);
+        sumCalculator.printSumOfTwoRanges(1, 10);
     }
 }
-
